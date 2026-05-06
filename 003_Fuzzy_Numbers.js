@@ -19,7 +19,7 @@ class FuzzyNumber {
   }
 
   divide(other) {
-    return new FuzzyNumber(this.baseValue * this._getValue(other));
+    return new FuzzyNumber(this.baseValue / this._getValue(other));
   }
 
   get() {
